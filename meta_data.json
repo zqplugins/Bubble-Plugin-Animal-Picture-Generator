@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "containers",
+        "1": "data (things)"
+    },
+    "demo_page": "https://bubble.io/page?type=page&name=animals-picture-generator&id=clasic-plugins&test_plugin=1667252625483x655088884233535500_current&tab=tabs-1",
+    "description": "Random Image generator for Animals pictures\n\nDifferent API to get Bears, Ducks, Foxs, Cats and Dogs inside your empty images.\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//s3.amazonaws.com/appforest_uf/f1667269984657x131981505201514530/giphy.gif",
+    "license": "open_source",
+    "link": "https://zeroqode.com/",
+    "name": "Animal Picture Generator "
+}

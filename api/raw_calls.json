@@ -1,0 +1,92 @@
+{
+    "calls": {
+        "AAC": {
+            "data_type": "image",
+            "initialized": true,
+            "method": "get",
+            "name": "Random Bears",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1667252625483x655088884233535500.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"API Call\",\"fields\":{\"_p_body\":{\"ret_value\":\"text\",\"caption\":\"body\",\"sample_value\":\"//s3.amazonaws.com/appforest_uf/f1667269024399x274818762562767600/api_initialize_image\",\"path\":[\"body\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"(value too large to save 72114 bytes)\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}}}",
+            "url": "https://placebear.com/[width]/[height]",
+            "url_params": {
+                "AAF": {
+                    "doc": "Width Image will be generated",
+                    "key": "width",
+                    "private": true,
+                    "value": "200"
+                },
+                "AAG": {
+                    "doc": "Height Image will be generated",
+                    "key": "height",
+                    "private": true,
+                    "value": "400"
+                }
+            },
+            "wrap_error": true
+        },
+        "AAH": {
+            "data_type": "image",
+            "initialized": true,
+            "method": "get",
+            "name": "Random Duck",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 3,
+            "should_reinitialize": true,
+            "url": "https://random-d.uk/api/v2/randomimg"
+        },
+        "AAI": {
+            "data_type": "JSON",
+            "get_headers": false,
+            "initialized": true,
+            "method": "get",
+            "name": "Random Foxs",
+            "publish_as": "data",
+            "rank": 4,
+            "ret_value": "api.1667252625483x655088884233535500.plugin_api.AAI",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAI\":{\"caption\":\"Random Fox\",\"fields\":{\"_p_image\":{\"ret_value\":\"image\",\"caption\":\"image\",\"sample_value\":\"https://randomfox.ca/images/97.jpg\",\"path\":[\"image\"]},\"_p_link\":{\"ret_value\":\"text\",\"caption\":\"link\",\"sample_value\":\"https://randomfox.ca/?i=97\",\"path\":[\"link\"]}}}}",
+            "url": "https://randomfox.ca/floof/"
+        },
+        "AAJ": {
+            "initialized": true,
+            "method": "get",
+            "name": "Random Dogs",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1667252625483x655088884233535500.plugin_api.AAJ",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAJ\":{\"caption\":\"Random Dog\",\"fields\":{\"_p_fileSizeBytes\":{\"ret_value\":\"number\",\"caption\":\"fileSizeBytes\",\"sample_value\":1009794,\"path\":[\"fileSizeBytes\"]},\"_p_url\":{\"ret_value\":\"image\",\"caption\":\"url\",\"sample_value\":\"https://random.dog/0dc73473-f0c9-42c9-bb0e-89c00921a938.jpg\",\"path\":[\"url\"]}}}}",
+            "url": "https://random.dog/woof.json"
+        },
+        "AAK": {
+            "data_type": "image",
+            "initialized": true,
+            "method": "get",
+            "name": "Random Kittens",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 0,
+            "should_reinitialize": true,
+            "url": "http://placekitten.com/g/[width]/[height]",
+            "url_params": {
+                "AAL": {
+                    "doc": "Width Image will be generated",
+                    "key": "width",
+                    "private": true,
+                    "value": "200"
+                },
+                "AAM": {
+                    "doc": "Height Image will be generated",
+                    "key": "height",
+                    "private": true,
+                    "value": "300"
+                }
+            }
+        }
+    },
+    "human": "Animal Generator"
+}
